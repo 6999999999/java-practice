@@ -12,6 +12,8 @@ public class ClassLockVsObjectLock  {
     }
 
     public static void main(String[] args) {
+        System.out.println("testig rollback feature");
+        System.out.println("this si in the another test method");
         ClassLockVsObjectLock lock1= new ClassLockVsObjectLock();
         ClassLockVsObjectLock lock2= new ClassLockVsObjectLock();
 
